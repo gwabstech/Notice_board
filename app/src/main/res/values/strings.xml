@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notice Board</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="sign_up">Sign up</string>
+    <string name="notice_title">Notice Title</string>
+    <string name="notice_description">Notice Description</string>
+    <string name="submit">Submit</string>
+    <string name="add_notice">Add Notice</string>
+    <string name="action_logout">Logout</string>
+    <string name="no_notice_available">No notice available at the moment</string>
+    <string name="computer_science_department_notice_board_kaduna_polytechnic">Computer science department Notice Board Kaduna Polytechnic</string>
+    <string name="todo">TODO</string>
+</resources>

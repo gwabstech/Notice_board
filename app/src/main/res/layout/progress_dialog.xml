@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c)
+  ~   * Created by Gwabstech on 01/01/2023, 11:58 AM
+  ~   * Copyright (c) 2023 . All rights reserved.
+  ~   * Last modified 01/01/2023, 11:58 AM
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="13dp"
+    android:gravity="center"
+    android:background="@drawable/progress_dialog"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="65dp">
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:src="@drawable/img_1"
+        android:scaleType="fitXY"
+        android:background="@drawable/progress_dialog"
+        android:layout_height="45dp"
+        android:contentDescription="@string/todo" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_marginEnd="5dp"
+        android:layout_width="45dp"
+        android:layout_gravity="center"
+        android:progressBackgroundTint="@color/white"
+        android:layout_height="45dp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/loading_msg"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
